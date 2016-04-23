@@ -1,0 +1,12 @@
+<?php
+$dbConn = mysql_connect("localhost",'root','');
+$dbName = mysql_select_db("APC2011");
+
+define(DB_NAME,'APC2011');
+
+define(SYS_NAME,'APCREGISTRATION');
+
+define(SYS_TITLE,"APC 2011 :: ver 1.0");
+
+define(SYS_LOGO_TITLE,"");
+?>
